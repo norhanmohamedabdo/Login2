@@ -91,12 +91,12 @@ section form {
   width: 100%;
 }
 section form input {
-   width: 100%;
-  display: block;
+  width: 100%;
   padding: 18px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  display: block;
   border: none;
-   border-radius: 6px;
+  border-radius: 6px;
   outline: none;
   border: 0.6px solid var(--input-strok);
 }
@@ -114,7 +114,7 @@ section form .option label {
   display: inline;
 }
 section form .option input {
-    margin: 5px;
+  margin: 0;
   display: inline;
   width: fit-content;
 }
@@ -134,7 +134,7 @@ section .accout a {
 section form .submit-btn {
   font-size: 16px;
   font-weight: 500;
-   color: var(--white);
+  color: var(--white);
   background-color: var(--black);
 }
 section .image {
