@@ -46,3 +46,102 @@ header a {
   font-weight: 500;
   color: var(--black);
 }
+section .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 991px) {
+  section .container {
+    justify-content: center;
+  }
+  section .form {
+    width: 100%;
+  }
+}
+section .form {
+  width: 50%;
+  padding: 38px;
+  border: 0.7px solid var(--stroke);
+  border-radius: 8px;
+}
+section .massage {
+  display: block;
+  margin-bottom: 18px;
+  font-size: 22px;
+  font-weight: 300;
+}
+section h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+section .title {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+section form label {
+  display: block;
+  margin-bottom: 9px;
+  font-size: 16px;
+  font-weight: 400;
+}
+section form {
+  width: 100%;
+}
+section form input {
+   width: 100%;
+  display: block;
+  padding: 18px;
+  margin-bottom: 40px;
+  border: none;
+   border-radius: 6px;
+  outline: none;
+  border: 0.6px solid var(--input-strok);
+}
+section form input::placeholder {
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--gray);
+}
+section form .option {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+section form .option label {
+  display: inline;
+}
+section form .option input {
+    margin: 5px;
+  display: inline;
+  width: fit-content;
+}
+section form .option a {
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--gray);
+}
+section .accout {
+  color: var(--gray);
+}
+section .accout a {
+  color: var(--black);
+  font-size: 16px;
+  font-weight: 600;
+}
+section form .submit-btn {
+  font-size: 16px;
+  font-weight: 500;
+   color: var(--white);
+  background-color: var(--black);
+}
+section .image {
+  width: 50%;
+}
+@media (max-width: 991px) {
+  section .image {
+    display: none;
+  }
+}
